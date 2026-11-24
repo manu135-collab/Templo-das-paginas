@@ -1,91 +1,39 @@
-
 # 📚 Templo das Páginas
 ### Sistema de Gerenciamento de Biblioteca
 
 ---
 
-# 📑 Sumário
+## 📖 Sobre o Projeto
 
-- [1. Introdução](#1-introdução)
-  - [1.1. Descrição Geral do Software](#11-descrição-geral-do-software)
-  - [1.2. Descrição dos Usuários](#12-descrição-dos-usuários)
+Este repositório apresenta a documentação do Sistema de Gerenciamento de Biblioteca, desenvolvido como projeto acadêmico de modelagem de software. O sistema tem como objetivo facilitar a consulta de livros e o gerenciamento de empréstimos para alunos e funcionários.
 
-- [2. Requisitos Gerais do Software](#2-requisitos-gerais-do-software)
-  - [2.1. Requisitos Funcionais](#21-requisitos-funcionais)
-  - [2.2. Requisitos Não Funcionais](#22-requisitos-não-funcionais)
-  - [2.3. Regras de Negócio](#23-regras-de-negócio)
+## 📑 Documentação
 
-- [3. Diagramas UML](#3-diagramas-uml)
-  - [3.1. Casos de Uso](#31-diagramas-de-casos-de-uso)
-  - [3.2. Sequência](#32-diagramas-de-sequência)
-  - [3.3. Atividades](#33-diagramas-de-atividades)
+A documentação está organizada em pastas para facilitar a navegação e a consulta dos conteúdos.
 
----
+### 1. Introdução
+- [Descrição Geral do Software](1.%20Introdução/Descrição%20Geral.md)
+- [Descrição dos Usuários](1.%20Introdução/Descrição%20dos%20Usuários.md)
 
-# 🌳 Estrutura da Documentação
+### 2. Requisitos Gerais do Software
+- [Requisitos Funcionais](2.%20Requisitos%20Gerais/Requisitos%20Funcionais.md)
+- [Requisitos Não Funcionais](2.%20Requisitos%20Gerais/Requisitos%20Não%20Funcionais.md)
+- [Regras de Negócio](2.%20Requisitos%20Gerais/Regras%20de%20Negócio.md)
 
-```text
-Templo das Páginas
-│
-├── 1. Introdução
-│   ├── 1.1. Descrição Geral
-│   └── 1.2. Descrição dos Usuários
-│
-├── 2. Requisitos Gerais
-│   ├── 2.1. Requisitos Funcionais
-│   ├── 2.2. Requisitos Não Funcionais
-│   └── 2.3. Regras de Negócio
-│
-└── 3. Diagramas UML
-    ├── 3.1. Casos de Uso
-    ├── 3.2. Sequência
-    └── 3.3. Atividades
-```
+### 3. Diagramas UML
+- [Diagramas de Casos de Uso](3.%20Diagramas%20UML/Casos%20de%20Uso/)
+- [Diagramas de Sequência](3.%20Diagramas%20UML/Sequência/)
+- [Diagramas de Atividades](3.%20Diagramas%20UML/Atividades/)
 
 ---
 
-# 1. Introdução
-
-## 1.1. Descrição Geral do Software
-
-[Escreva aqui a descrição do sistema.]
-
-## 1.2. Descrição dos Usuários
-
-[Descreva os usuários do sistema.]
-
-# 2. Requisitos Gerais do Software
-
-## 2.1. Requisitos Funcionais
-
-[Insira os requisitos funcionais.]
-
-## 2.2. Requisitos Não Funcionais
-
-[Insira os requisitos não funcionais.]
-
-## 2.3. Regras de Negócio
-
-[Insira as regras de negócio.]
-
-# 3. Diagramas UML
-
-## 3.1. Diagramas de Casos de Uso
-
-[Insira os diagramas.]
-
-## 3.2. Diagramas de Sequência
-
-[Insira os diagramas.]
-
-## 3.3. Diagramas de Atividades
-
-[Insira os diagramas.]
-
 ---
 
-# 👥 Integrantes
+## 👥 Integrantes
 
-- Nome do integrante 1
-- Nome do integrante 2
-- Nome do integrante 3
+Os integrantes responsáveis pelo desenvolvimento do projeto estão apresentados na pasta abaixo.
+
+- [Acessar Integrantes](Integrantes/)
+- Emanuel Queiroz Silva
+- Renato Augusto Amazonas Gomes
+- Endryw Silva Lucas
