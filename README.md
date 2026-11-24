@@ -34,6 +34,3 @@ A documentação está organizada em pastas para facilitar a navegação e a con
 Os integrantes responsáveis pelo desenvolvimento do projeto estão apresentados na pasta abaixo.
 
 - [Acessar Integrantes](Integrantes/)
-- Emanuel Queiroz Silva
-- Renato Augusto Amazonas Gomes
-- Endryw Silva Lucas
