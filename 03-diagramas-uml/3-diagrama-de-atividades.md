@@ -1,30 +1,35 @@
-# Diagramas de Atividades
+# 3.3. Diagramas de Atividades
 
 ## Atividade: realizar empréstimo (Figura 6)
 
-Fluxo especificado no documento fornecido: início → identificar leitor → verificar cadastro ativo e ausência de pendências. Se inválido, exibir motivo e encerrar; se válido, informar exemplar → verificar disponibilidade e se pode ser emprestado. Se indisponível ou de consulta local, sugerir reserva e encerrar; se disponível, verificar limite de três empréstimos. Se o limite foi atingido, recusar e encerrar; caso contrário, registrar empréstimo, calcular devolução, emitir comprovante e finalizar.
+Fluxo: início → identificar leitor → informar exemplar → verificar cadastro ativo e ausência de pendências (RN05). Se inválido, exibir o motivo da recusa e encerrar; se válido, verificar disponibilidade e se o exemplar pode ser emprestado (RN07). Se indisponível ou de consulta local, exibir o motivo ou sugerir reserva e encerrar; se disponível, verificar o limite de três empréstimos (RN01). Se o limite foi atingido, recusar e encerrar; caso contrário, registrar o empréstimo, calcular a data de devolução (RN02), emitir o comprovante e finalizar.
 
 ```mermaid
 flowchart TD
   A([Início]) --> B[Identificar leitor]
-  B --> C{Cadastro ativo e sem pendências?}
-  C -- Não --> D[Exibir motivo]
+  B --> B2[Informar exemplar]
+  B2 --> C{Cadastro ativo e sem pendências?}
+  C -- Não --> D[Exibir motivo da recusa]
   D --> Z([Fim])
-  C -- Sim --> E[Informar exemplar]
-  E --> F{Disponível e emprestável?}
-  F -- Não --> G[Sugerir reserva]
+  C -- Sim --> F{Exemplar disponível e emprestável?}
+  F -- Não --> G[Exibir motivo da recusa ou sugerir reserva]
   G --> Z
   F -- Sim --> H{Abaixo do limite de 3 empréstimos?}
-  H -- Não --> I[Recusar empréstimo]
+  H -- Não --> I[Exibir motivo da recusa: limite atingido]
   I --> Z
-  H -- Sim --> J[Registrar empréstimo e calcular devolução]
-  J --> K[Emitir comprovante]
+  H -- Sim --> J[Registrar empréstimo]
+  J --> J2[Calcular data de devolução]
+  J2 --> K[Emitir comprovante]
   K --> Z
 ```
 
+![Figura 6 – Diagrama de Atividades: Realizar Empréstimo](imagem/atividade%20realizar%20emprestimo.jpeg)
+
+*Figura 6 – Diagrama de Atividades: Realizar Empréstimo.*
+
 ## Atividade: login (Figura 7)
 
-Início → inserir e-mail e senha → validar dados → credenciais válidas? Se não, exibir erro e retornar à inserção; se sim, acessar sistema → exibir tela inicial → fim.
+Fluxo: início → inserir e-mail e senha → validar dados → credenciais válidas? Se não, exibir mensagem de erro e retornar à inserção; se sim, acessar o sistema → exibir a tela inicial → fim.
 
 ```mermaid
 flowchart TD
@@ -38,16 +43,6 @@ flowchart TD
   G --> H([Fim])
 ```
 
-## Template de atividade
+![Figura 7 – Diagrama de Atividades: Login](imagem/atividade%20login.jpeg)
 
-```mermaid
-flowchart TD
-  A([Início]) --> B[Atividade]
-  B --> C{Condição?}
-  C -- Sim --> D[Fluxo principal]
-  C -- Não --> E[Alternativa ou erro]
-  D --> Z([Fim])
-  E --> Z
-```
-
-Ao adicionar um fluxo, identifique claramente início/fim, decisões, alternativas, erros e requisitos/regras relacionados. Os diagramas de atividade acima são representações textuais dos fluxos descritos, não imagens das figuras originais.
+*Figura 7 – Diagrama de Atividades: Login.*
