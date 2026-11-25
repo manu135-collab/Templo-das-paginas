@@ -1,15 +1,32 @@
 # 3. Diagramas UML
 
-Esta seção apresenta os diagramas UML desenvolvidos durante a modelagem do Sistema de Gerenciamento de Biblioteca.
+Esta pasta reúne as especificações dos casos de uso e os diagramas/fluxos UML informados no documento de requisitos.
 
-## 3.1. Diagramas de Casos de Uso
+## Conteúdo
 
-Representam as funcionalidades do sistema e as interações entre os usuários e o software.
+- [Casos de uso e especificações UC1–UC12](casos-de-uso.md)
+- [Diagramas de sequência](sequencia.md)
+- [Diagramas de atividades](atividades.md)
 
-## 3.2. Diagramas de Sequência
+## Sobre as figuras
 
-Demonstram a ordem das interações entre os elementos do sistema durante a execução de determinadas funcionalidades.
+O conteúdo original recebido descreve Figuras 1–7, mas não inclui os arquivos de imagem. Para não inventar diagramas gráficos, esta documentação registra os fluxos fornecidos e disponibiliza fontes Mermaid/PlantUML quando adequadas. As imagens podem ser adicionadas nesta pasta e vinculadas aos documentos.
 
-## 3.3. Diagramas de Atividades
+## Template para documentar um diagrama
 
-Representam o fluxo de atividades e as etapas necessárias para realizar determinadas operações no sistema.
+```markdown
+# [Tipo do diagrama]: [funcionalidade]
+
+**Requisitos relacionados:** [RF/RNF/RN]  
+**Atores/participantes:** [perfis ou componentes]
+
+![Descrição acessível do diagrama](caminho/para/figura.ext)
+
+## Fluxo representado
+1. [Etapa]
+
+## Regras e exceções
+- [Regra/alternativa]
+```
+
+Para diagramas novos, mantenha nomes de atores e regras alinhados com os requisitos e especifique claramente as exceções.
