@@ -1,33 +1,34 @@
 # 1.2. Descrição dos Usuários
 
-O sistema possui três perfis, com responsabilidades e permissões distintas. O acesso às funcionalidades deverá respeitar o perfil autenticado (RNF04).
+O sistema possui três perfis, com responsabilidades e permissões distintas. O acesso às funcionalidades respeita o perfil autenticado (RNF04).
 
 ## Leitor
 
-Membro da comunidade devidamente cadastrado. Consulta o acervo, verifica disponibilidade, reserva obras indisponíveis, acompanha seus empréstimos, reservas e pendências e, por intermédio do bibliotecário, retira obras por empréstimo.
+Membro da comunidade devidamente cadastrado. Consulta o acervo, verifica a disponibilidade das obras, reserva obras cujos exemplares estão todos emprestados e acompanha seus empréstimos, reservas e pendências. A retirada de obras por empréstimo é registrada pelo bibliotecário.
 
 ## Bibliotecário
 
-Funcionário responsável pelo atendimento, gerenciamento do acervo e registro de empréstimos, devoluções e renovações. Pode pesquisar o acervo e manter obras e exemplares, conforme as regras RN09 e RN10.
+Funcionário responsável pelo atendimento ao público, pelo registro de empréstimos, devoluções e renovações e pela manutenção do acervo. Pode pesquisar o acervo e gerenciar obras e exemplares, conforme as regras RN09 e RN10.
 
 ## Administrador
 
-Responsável pela gestão das contas de funcionários e leitores, atribuição de perfis, configurações do sistema e emissão de relatórios gerenciais. Também pode gerenciar o acervo.
+Responsável pela gestão das contas de funcionários e de leitores, pelas configurações do sistema e pela emissão de relatórios gerenciais. Também pode gerenciar o acervo (RN09).
 
-## Matriz resumida de permissões
+## Permissões por perfil
 
-| Funcionalidade | Leitor | Bibliotecário | Administrador |
-|---|---:|---:|---:|
-| Cadastrar-se e autenticar-se | Sim | Sim | Sim |
-| Pesquisar acervo | Sim | Sim | Conforme acesso autenticado |
-| Reservar obra e consultar próprio histórico | Sim | Não especificado | Não especificado |
-| Registrar empréstimo, devolução e renovação | Não | Sim | Não especificado |
-| Gerenciar acervo | Não | Sim | Sim |
-| Gerenciar contas e perfis | Não | Não | Sim |
-| Gerar relatórios gerenciais | Não | Não | Sim |
+| Funcionalidade | Caso de uso | Leitor | Bibliotecário | Administrador |
+|---|---|:---:|:---:|:---:|
+| Cadastrar-se | UC1 | Sim | Não | Não |
+| Logar | UC2 | Sim | Sim | Sim |
+| Pesquisar acervo | UC3 | Sim | Sim | Não |
+| Reservar obra | UC4 | Sim | Não | Não |
+| Consultar histórico | UC5 | Sim | Não | Não |
+| Realizar empréstimo | UC6 | Não | Sim | Não |
+| Registrar devolução | UC7 | Não | Sim | Não |
+| Renovar empréstimo | UC12 | Não | Sim | Não |
+| Encerrar sessão | UC8 | Sim | Sim | Sim |
+| Gerenciar acervo | UC9 | Não | Sim | Sim |
+| Gerenciar usuários | UC10 | Não | Não | Sim |
+| Gerar relatórios | UC11 | Não | Não | Sim |
 
-> “Não especificado” indica que o documento de requisitos fornecido não define essa permissão; não deve ser interpretado automaticamente como autorização.
-
-## Template para atualização
-
-Para adicionar um perfil, documente: finalidade, responsabilidades, dados que pode consultar ou alterar, operações permitidas e restrições. Mantenha a matriz alinhada com os requisitos de segurança e casos de uso.
+*Fonte: Tabela 24 do Documento de Requisitos v1.4 (casos de uso por ator).*
