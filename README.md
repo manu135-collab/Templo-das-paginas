@@ -4,8 +4,11 @@
 <p align="center">Sistema de gerenciamento de uma biblioteca pública</p>
 
 **Instituição:** Universidade Federal do Amazonas (UFAM) – Instituto de Ciências Exatas e Tecnologia (ICET)
+
 **Disciplina:** Engenharia de Requisitos
+
 **Trabalho:** Documentação Informal Moderna
+
 **Ano:** 2026
 
 ## Integrantes
