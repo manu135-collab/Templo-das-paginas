@@ -1,4 +1,4 @@
-# TP2 – Interação Humano-Computador (IHC)
+# Documentação Informal Moderna
 
 <p align="center"><strong>Templo das Páginas</strong></p>
 <p align="center">Sistema de gerenciamento de uma biblioteca pública</p>
