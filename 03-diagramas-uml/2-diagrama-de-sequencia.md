@@ -6,6 +6,8 @@ Os fluxos seguem o padrão Boundary (Interface) – Control – Entity (Database
 
 ![Figura 2 – Diagrama de Sequência: Cadastrar Leitor](imagem/sequencia%20cadastrar%20leitor.jpeg)
 
+*Figura 2 – Diagrama de Sequência: Cadastrar Leitor.*
+
 1. O leitor informa os dados do cadastro na interface.
 2. A interface valida os campos obrigatórios; se houver campos inválidos, exibe os erros de validação.
 3. Sendo válidos, a interface solicita o cadastro ao controle.
@@ -16,6 +18,8 @@ Os fluxos seguem o padrão Boundary (Interface) – Control – Entity (Database
 ## Logar
 
 ![Figura 3 – Diagrama de Sequência: Logar](imagem/sequencia%20logar.jpeg)
+
+*Figura 3 – Diagrama de Sequência: Logar.*
 
 1. O usuário informa e-mail e senha.
 2. A interface verifica o preenchimento dos campos; se estiverem vazios, exibe a mensagem de preenchimento obrigatório.
@@ -28,6 +32,8 @@ Os fluxos seguem o padrão Boundary (Interface) – Control – Entity (Database
 
 ![Figura 4 – Diagrama de Sequência: Realizar Empréstimo](imagem/sequencia%20realizar%20emprestimo.jpeg)
 
+*Figura 4 – Diagrama de Sequência: Realizar Empréstimo.*
+
 1. O bibliotecário informa o leitor e o exemplar; a interface valida os campos obrigatórios e solicita o empréstimo ao controle.
 2. O controle consulta a situação do leitor no banco de dados.
 3. Se o leitor estiver irregular ou não existir, o empréstimo é recusado e o motivo é exibido.
@@ -38,6 +44,8 @@ Os fluxos seguem o padrão Boundary (Interface) – Control – Entity (Database
 ## Encerrar sessão (logout)
 
 ![Figura 5 – Diagrama de Sequência: Logout](imagem/sequencia%20logout.jpeg)
+
+*Figura 5 – Diagrama de Sequência: Logout.*
 
 1. O usuário aciona "Encerrar Sessão" na interface, que solicita o encerramento ao controle.
 2. O controle identifica a sessão, registra o evento e grava o log de logout no banco de dados, atualizando a sessão.
