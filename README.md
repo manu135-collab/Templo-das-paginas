@@ -1,11 +1,11 @@
 # TP2 – Interação Humano-Computador (IHC)
 
-<p align="center"><strong>Lab Manager</strong></p>
-<p align="center">Sistema de gerenciamento de materiais e agendamentos do Laboratório de Biologia</p>
+<p align="center"><strong>Templo das Páginas</strong></p>
+<p align="center">Sistema de gerenciamento de uma biblioteca pública</p>
 
 **Instituição:** Universidade Federal do Amazonas (UFAM) – Instituto de Ciências Exatas e Tecnologia (ICET)  
-**Disciplina:** Interação Humano-Computador (IHC)  
-**Trabalho:** Trabalho Prático 2 (TP2)  
+**Disciplina:** Engenharia de Requisitos 
+**Trabalho:** Documentação Informal Moderna 
 **Ano:** 2026
 
 ## Integrantes
@@ -18,14 +18,12 @@
 
 ## 1. Apresentação do sistema
 
-O **Lab Manager** é uma proposta de sistema para centralizar a solicitação de materiais e equipamentos, o agendamento de aulas práticas e o acompanhamento de pedidos no Laboratório de Biologia da UFAM.
-
-O projeto busca facilitar a rotina dos professores e da equipe técnica, reduzindo a dispersão de informações entre planilhas, e-mails e WhatsApp. A proposta considera a consulta de disponibilidade de materiais, o prazo mínimo de 48 horas para solicitações, as notificações, o controle de reposições e a consulta de informações dos responsáveis pelo laboratório.
-
-Também são considerados recursos de acessibilidade, como ampliação de textos, ajustes de contraste e navegação por teclado, visando à autonomia dos usuários.
-
-> [!NOTE]
-> O sistema encontra-se na etapa de design e prototipação de baixa fidelidade. As funcionalidades descritas representam propostas de interação, e não funcionalidades já implementadas.
+O **Templo das Páginas** é um sistema destinado à gestão de uma biblioteca pública. Ele
+possibilita o cadastro de leitores, o gerenciamento do acervo, a consulta de obras e o registro
+de empréstimos, devoluções, renovações e reservas, além do controle de atrasos e da emissão
+de relatórios gerenciais. O sistema tem por objetivo substituir os controles manuais (fichas e
+planilhas), reduzir a ocorrência de erros, tornar o atendimento mais ágil e oferecer ao público
+acesso facilitado à consulta do acervo.
 
 ---
 ## 2. Sumário
