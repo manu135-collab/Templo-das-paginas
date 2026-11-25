@@ -1,12 +1,33 @@
-# 📚 Templo das Páginas
-### Sistema de Gerenciamento de Biblioteca Pública
+# TP2 – Interação Humano-Computador (IHC)
 
-Documentação do projeto acadêmico de Engenharia de Software da Universidade Federal do Amazonas (UFAM), Instituto de Ciências Exatas e Tecnologia (ICET), em Itacoatiara/AM — 2026.
+<p align="center"><strong>Lab Manager</strong></p>
+<p align="center">Sistema de gerenciamento de materiais e agendamentos do Laboratório de Biologia</p>
 
-## Sobre o projeto
+**Instituição:** Universidade Federal do Amazonas (UFAM) – Instituto de Ciências Exatas e Tecnologia (ICET)  
+**Disciplina:** Interação Humano-Computador (IHC)  
+**Trabalho:** Trabalho Prático 2 (TP2)  
+**Ano:** 2026
 
-O Templo das Páginas apoia a gestão de leitores, acervo, empréstimos, devoluções, renovações, reservas, atrasos, notificações e relatórios da biblioteca pública.
+## Integrantes
 
+- Emanuel Queiroz
+- Manuely da Silva Simões
+- Renato Augusto Amazonas Gomes
+
+---
+
+## 1. Apresentação do sistema
+
+O **Lab Manager** é uma proposta de sistema para centralizar a solicitação de materiais e equipamentos, o agendamento de aulas práticas e o acompanhamento de pedidos no Laboratório de Biologia da UFAM.
+
+O projeto busca facilitar a rotina dos professores e da equipe técnica, reduzindo a dispersão de informações entre planilhas, e-mails e WhatsApp. A proposta considera a consulta de disponibilidade de materiais, o prazo mínimo de 48 horas para solicitações, as notificações, o controle de reposições e a consulta de informações dos responsáveis pelo laboratório.
+
+Também são considerados recursos de acessibilidade, como ampliação de textos, ajustes de contraste e navegação por teclado, visando à autonomia dos usuários.
+
+> [!NOTE]
+> O sistema encontra-se na etapa de design e prototipação de baixa fidelidade. As funcionalidades descritas representam propostas de interação, e não funcionalidades já implementadas.
+
+---
 ## 2. Sumário
 
 ### 📁 Introdução
