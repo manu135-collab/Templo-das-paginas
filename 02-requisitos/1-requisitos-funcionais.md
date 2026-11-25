@@ -16,3 +16,5 @@
 | RF12 | Consultar histórico | O sistema deverá permitir que o leitor consulte seus empréstimos, reservas e pendências. | Importante |
 | RF13 | Gerenciar usuários | O sistema deverá permitir que o administrador crie, edite e desative contas de funcionários e de leitores. | Importante |
 | RF14 | Gerar relatórios | O sistema deverá gerar relatórios, tais como obras mais emprestadas, atrasos e movimentação mensal. | Desejável |
+
+<p align="center"><em>Tabela 1 – Requisitos funcionais.</em></p>

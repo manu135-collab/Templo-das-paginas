@@ -15,3 +15,4 @@ As regras abaixo definem condições que devem ser respeitadas durante as opera�
 | RN09 | Permissão sobre o acervo | Somente bibliotecários e administradores poderão alterar o acervo. |
 | RN10 | Exemplar emprestado | Exemplar com empréstimo ativo não poderá ser removido do acervo. |
 
+<p align="center"><em>Tabela 3 – Regras de negócio.</em></p>

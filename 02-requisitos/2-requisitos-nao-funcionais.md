@@ -12,3 +12,5 @@
 | RNF08 | Disponibilidade | O sistema deverá permanecer disponível em, no mínimo, 95% do horário de funcionamento da biblioteca. | Importante |
 | RNF09 | Manutenibilidade | O código deverá ser modular e documentado, de modo a facilitar a manutenção. | Importante |
 | RNF10 | Legal | O tratamento de dados pessoais deverá estar em conformidade com a Lei Geral de Proteção de Dados (LGPD). | Essencial |
+
+<p align="center"><em>Tabela 2 – Requisitos não funcionais.</em></p>
