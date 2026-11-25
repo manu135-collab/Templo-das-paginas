@@ -10,36 +10,41 @@
 
 ## Objetivo
 
-O Templo das Páginas é um sistema destinado à gestão de uma biblioteca pública. Seu objetivo é substituir controles manuais (fichas e planilhas), reduzir erros, agilizar o atendimento e facilitar ao público a consulta do acervo.
+O Templo das Páginas é um sistema destinado à gestão de uma biblioteca pública. Seu objetivo é substituir os controles manuais (fichas e planilhas), reduzir a ocorrência de erros, tornar o atendimento mais ágil e oferecer ao público acesso facilitado à consulta do acervo.
 
 ## Escopo
 
-O sistema contempla cadastro de leitores, gerenciamento do acervo, consulta de obras, empréstimos, devoluções, renovações e reservas, controle de atrasos, notificações por e-mail e emissão de relatórios gerenciais. Os perfis de usuário são leitor, bibliotecário e administrador.
+O sistema contempla:
 
-## Público e finalidade deste documento
+- cadastro de leitores;
+- gerenciamento do acervo;
+- consulta de obras;
+- empréstimos, devoluções, renovações e reservas;
+- controle de atrasos;
+- notificações por e-mail;
+- emissão de relatórios gerenciais.
 
-Esta documentação serve de referência ao cliente (direção da biblioteca), colaboradores do projeto, desenvolvedores, responsáveis pela qualidade e testes e orientador/professor. Deve apoiar a validação dos requisitos, o desenvolvimento e a elaboração dos testes.
+Os perfis de usuário são **leitor**, **bibliotecário** e **administrador** (ver [1.2. Descrição dos Usuários](2-descricao-dos-usuarios.md)).
 
-## Convenções e termos
+## Convenções, termos e abreviações
 
-| Termo | Significado |
+| Sigla/Termo | Significado |
 |---|---|
-| Acervo | Conjunto de obras da biblioteca, como livros e periódicos. |
+| Acervo | Conjunto de obras (livros, periódicos etc.) da biblioteca. |
 | Exemplar | Cópia física de uma obra do acervo. |
 | Leitor | Pessoa cadastrada que utiliza os serviços da biblioteca. |
-| RF / RNF | Requisito funcional / requisito não funcional. |
-| RN | Regra de negócio. |
-| RU / RS / RSW | Requisito de usuário / sistema / software. |
-| UC | Caso de uso (Use Case). |
+| RF | Requisito Funcional. |
+| RNF | Requisito Não Funcional. |
+| RN | Regra de Negócio. |
+| RU / RS / RSW | Requisito de Usuário / de Sistema / de Software. |
+| UC | Caso de Uso (*Use Case*). |
 
-## Referências internas
+## Documentos relacionados
 
-- [Descrição dos usuários](2-descricao-dos-usuarios.md)
-- [Requisitos funcionais](../02-requisitos/funcionais.md)
-- [Requisitos não funcionais](../02-requisitos/nao-funcionais.md)
-- [Regras de negócio](../02-requisitos/02-requisitos/regras-de-negocio.md)
-- [Diagramas UML e especificações](../03-diagramas-uml/README.md)
-
-## Template para atualização
-
-Ao revisar esta descrição, mantenha atualizados: identificação do projeto, objetivo, escopo, público-alvo, termos e referências para os documentos relacionados. Registre a versão, responsável, data e resumo da alteração no histórico do documento de requisitos.
+- [1.2. Descrição dos Usuários](2-descricao-dos-usuarios.md)
+- [2.1. Requisitos Funcionais](../02-requisitos/1-requisitos-funcionais.md)
+- [2.2. Requisitos Não Funcionais](../02-requisitos/2-requisitos-nao-funcionais.md)
+- [2.3. Regras de Negócio](../02-requisitos/3-regras-de-negocio.md)
+- [3.1. Diagramas de Casos de Uso](../03-diagramas-uml/1-casos-de-uso.md)
+- [3.2. Diagramas de Sequência](../03-diagramas-uml/2-diagrama-de-sequencia.md)
+- [3.3. Diagramas de Atividades](../03-diagramas-uml/3-diagrama-de-atividades.md)
