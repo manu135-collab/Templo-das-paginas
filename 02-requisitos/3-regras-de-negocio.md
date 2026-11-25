@@ -15,10 +15,3 @@ As regras abaixo definem condições que devem ser respeitadas durante as opera�
 | RN09 | Permissão sobre o acervo | Somente bibliotecários e administradores poderão alterar o acervo. |
 | RN10 | Exemplar emprestado | Exemplar com empréstimo ativo não poderá ser removido do acervo. |
 
-## Template para novas regras
-
-| ID | Regra | Condição | Consequência | Requisitos/casos relacionados |
-|---|---|---|---|---|
-| RNXX | [Nome curto] | [Quando se aplica] | [Comportamento obrigatório] | [RFXX / UCXX] |
-
-> **Ponto para validação com a biblioteca:** a duração da penalidade de atraso descrita em RN04 foi marcada como sujeita à validação no material de origem.
