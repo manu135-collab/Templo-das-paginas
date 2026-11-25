@@ -30,5 +30,3 @@ Responsável pela gestão das contas de funcionários e de leitores, pelas confi
 | Gerenciar acervo | UC9 | Não | Sim | Sim |
 | Gerenciar usuários | UC10 | Não | Não | Sim |
 | Gerar relatórios | UC11 | Não | Não | Sim |
-
-*Fonte: Tabela 24 do Documento de Requisitos v1.4 (casos de uso por ator).*
