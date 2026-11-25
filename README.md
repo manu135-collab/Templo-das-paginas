@@ -10,7 +10,8 @@
 
 ## Integrantes
 
-- Emanuel Queiroz
+- Emanuel Queiroz Silva
+- Endryw Silva Lucas
 - Manuely da Silva Simões
 - Renato Augusto Amazonas Gomes
 
