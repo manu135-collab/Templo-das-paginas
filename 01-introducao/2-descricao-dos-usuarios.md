@@ -4,11 +4,11 @@ O sistema possui três perfis, com responsabilidades e permissões distintas. O 
 
 ## Leitor
 
-Membro da comunidade devidamente cadastrado. Consulta o acervo, verifica a disponibilidade das obras, reserva obras cujos exemplares estão todos emprestados e acompanha seus empréstimos, reservas e pendências. A retirada de obras por empréstimo é registrada pelo bibliotecário.
+Membro da comunidade devidamente cadastrado. Consulta o acervo, verifica a disponibilidade das obras, reserva obras cujos exemplares estão todos emprestados e acompanha seus empréstimos, reservas[...]
 
 ## Bibliotecário
 
-Funcionário responsável pelo atendimento ao público, pelo registro de empréstimos, devoluções e renovações e pela manutenção do acervo. Pode pesquisar o acervo e gerenciar obras e exemplares, conforme as regras RN09 e RN10.
+Funcionário responsável pelo atendimento ao público, pelo registro de empréstimos, devoluções e renovações e pela manutenção do acervo. Pode pesquisar o acervo e gerenciar obras e exempl[...]
 
 ## Administrador
 
@@ -25,8 +25,8 @@ Responsável pela gestão das contas de funcionários e de leitores, pelas confi
 | Consultar histórico | UC5 | Sim | Não | Não |
 | Realizar empréstimo | UC6 | Não | Sim | Não |
 | Registrar devolução | UC7 | Não | Sim | Não |
-| Renovar empréstimo | UC12 | Não | Sim | Não |
 | Encerrar sessão | UC8 | Sim | Sim | Sim |
 | Gerenciar acervo | UC9 | Não | Sim | Sim |
 | Gerenciar usuários | UC10 | Não | Não | Sim |
 | Gerar relatórios | UC11 | Não | Não | Sim |
+| Renovar empréstimo | UC12 | Não | Sim | Não |
