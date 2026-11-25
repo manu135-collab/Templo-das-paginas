@@ -7,34 +7,46 @@ Documentação do projeto acadêmico de Engenharia de Software da Universidade F
 
 O Templo das Páginas apoia a gestão de leitores, acervo, empréstimos, devoluções, renovações, reservas, atrasos, notificações e relatórios da biblioteca pública.
 
-## Documentação
+## 2. Sumário
 
-### 1. Introdução
+### 📁 Introdução
 
-#### 1.1. Descrição Geral do Software
-- [Descrição geral do software](01-introducao/1-descricao-geral-do-software.md)
+| Documento | Descrição |
+|---|---|
+| 📄 [1.1 – Descrição Geral do Software](01-introducao/1-descricao-geral-do-software.md) | Apresenta a visão geral, os objetivos e o escopo do sistema Templo das Páginas. |
+| 📄 [1.2 – Descrição dos Usuários](01-introducao/2-descricao-dos-usuarios.md) | Descreve os perfis de usuários que interagem com o sistema e suas necessidades. |
 
-#### 1.2. Descrição dos Usuários
-- [Descrição dos usuários](01-introducao/2-descricao-dos-usuarios.md)
+### 📁 Requisitos Gerais do Software
 
-### 2. Requisitos Gerais do Software
+| Documento | Descrição |
+|---|---|
+| 📄 [2.1 – Requisitos Funcionais](02-requisitos/funcionais.md) | Especifica as funcionalidades e os serviços oferecidos pelo sistema. |
+| 📄 [2.2 – Requisitos Não Funcionais](02-requisitos/nao-funcionais.md) | Define critérios de qualidade e restrições do sistema, como segurança, desempenho e usabilidade. |
+| 📄 [2.3 – Regras de Negócio](02-requisitos/02-requisitos/regras-de-negocio.md) | Reúne as regras e políticas que orientam as operações da biblioteca. |
 
-#### 2.1. Requisitos Funcionais
-- [Requisitos funcionais](02-requisitos/funcionais.md)
+### 📁 Diagramas UML
 
-#### 2.2. Requisitos Não Funcionais
-- [Requisitos não funcionais](02-requisitos/nao-funcionais.md)
+| Documento | Descrição |
+|---|---|
+| 📄 [3.1 – Diagramas de Casos de Uso](03-diagramas-uml/casos-de-uso.md) | Apresenta os casos de uso e as interações dos atores com o sistema. |
+| 📄 [3.2 – Diagramas de Sequência](03-diagramas-uml/sequencia.md) | Representa a troca de mensagens entre atores e componentes ao longo dos cenários. |
+| 📄 [3.3 – Diagramas de Atividades](03-diagramas-uml/atividades.md) | Representa os fluxos de atividades dos principais processos do sistema. |
 
-#### 2.3. Regras de Negócio
-- [Regras de negócio](02-requisitos/02-requisitos/regras-de-negocio.md)
+## 3. Organização do repositório
 
-### 3. Diagramas UML
-
-#### 3.1. Diagramas de Casos de Uso
-- [Diagramas de casos de uso](03-diagramas-uml/casos-de-uso.md)
-
-#### 3.2. Diagramas de Sequência
-- [Diagramas de sequência](03-diagramas-uml/sequencia.md)
-
-#### 3.3. Diagramas de Atividades
-- [Diagramas de atividades](03-diagramas-uml/atividades.md)
+```text
+📁 Templo-das-paginas/
+├── README.md
+├── 📁 01-introducao/
+│   ├── 1-descricao-geral-do-software.md
+│   └── 2-descricao-dos-usuarios.md
+├── 📁 02-requisitos/
+│   ├── funcionais.md
+│   ├── nao-funcionais.md
+│   └── 📁 02-requisitos/
+│       └── regras-de-negocio.md
+└── 📁 03-diagramas-uml/
+    ├── casos-de-uso.md
+    ├── sequencia.md
+    └── atividades.md
+```
