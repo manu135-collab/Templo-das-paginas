@@ -38,13 +38,3 @@ Os perfis de usuário são **leitor**, **bibliotecário** e **administrador** (v
 | RN | Regra de Negócio. |
 | RU / RS / RSW | Requisito de Usuário / de Sistema / de Software. |
 | UC | Caso de Uso (*Use Case*). |
-
-## Documentos relacionados
-
-- [1.2. Descrição dos Usuários](2-descricao-dos-usuarios.md)
-- [2.1. Requisitos Funcionais](../02-requisitos/1-requisitos-funcionais.md)
-- [2.2. Requisitos Não Funcionais](../02-requisitos/2-requisitos-nao-funcionais.md)
-- [2.3. Regras de Negócio](../02-requisitos/3-regras-de-negocio.md)
-- [3.1. Diagramas de Casos de Uso](../03-diagramas-uml/1-casos-de-uso.md)
-- [3.2. Diagramas de Sequência](../03-diagramas-uml/2-diagrama-de-sequencia.md)
-- [3.3. Diagramas de Atividades](../03-diagramas-uml/3-diagrama-de-atividades.md)
