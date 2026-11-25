@@ -4,9 +4,11 @@ Os fluxos seguem o padrão Boundary (Interface) – Control – Entity (Database
 
 ## Cadastrar leitor
 
-![Figura 2 – Diagrama de Sequência: Cadastrar Leitor](imagem/sequencia%20cadastrar%20leitor.jpeg)
-
-*Figura 2 – Diagrama de Sequência: Cadastrar Leitor.*
+<p align="center">
+  <img src="imagem/sequencia%20cadastrar%20leitor.jpeg" alt="Figura 2 – Diagrama de Sequência: Cadastrar Leitor" width="700">
+  <br>
+  <em>Figura 2 – Diagrama de Sequência: Cadastrar Leitor.</em>
+</p>
 
 1. O leitor informa os dados do cadastro na interface.
 2. A interface valida os campos obrigatórios; se houver campos inválidos, exibe os erros de validação.
@@ -17,9 +19,11 @@ Os fluxos seguem o padrão Boundary (Interface) – Control – Entity (Database
 
 ## Logar
 
-![Figura 3 – Diagrama de Sequência: Logar](imagem/sequencia%20logar.jpeg)
-
-*Figura 3 – Diagrama de Sequência: Logar.*
+<p align="center">
+  <img src="imagem/sequencia%20logar.jpeg" alt="Figura 3 – Diagrama de Sequência: Logar" width="800">
+  <br>
+  <em>Figura 3 – Diagrama de Sequência: Logar.</em>
+</p>
 
 1. O usuário informa e-mail e senha.
 2. A interface verifica o preenchimento dos campos; se estiverem vazios, exibe a mensagem de preenchimento obrigatório.
@@ -30,9 +34,11 @@ Os fluxos seguem o padrão Boundary (Interface) – Control – Entity (Database
 
 ## Realizar empréstimo
 
-![Figura 4 – Diagrama de Sequência: Realizar Empréstimo](imagem/sequencia%20realizar%20emprestimo.jpeg)
-
-*Figura 4 – Diagrama de Sequência: Realizar Empréstimo.*
+<p align="center">
+  <img src="imagem/sequencia%20realizar%20emprestimo.jpeg" alt="Figura 4 – Diagrama de Sequência: Realizar Empréstimo" width="800">
+  <br>
+  <em>Figura 4 – Diagrama de Sequência: Realizar Empréstimo.</em>
+</p>
 
 1. O bibliotecário informa o leitor e o exemplar; a interface valida os campos obrigatórios e solicita o empréstimo ao controle.
 2. O controle consulta a situação do leitor no banco de dados.
@@ -43,9 +49,11 @@ Os fluxos seguem o padrão Boundary (Interface) – Control – Entity (Database
 
 ## Encerrar sessão (logout)
 
-![Figura 5 – Diagrama de Sequência: Logout](imagem/sequencia%20logout.jpeg)
-
-*Figura 5 – Diagrama de Sequência: Logout.*
+<p align="center">
+  <img src="imagem/sequencia%20logout.jpeg" alt="Figura 5 – Diagrama de Sequência: Logout" width="650">
+  <br>
+  <em>Figura 5 – Diagrama de Sequência: Logout.</em>
+</p>
 
 1. O usuário aciona "Encerrar Sessão" na interface, que solicita o encerramento ao controle.
 2. O controle identifica a sessão, registra o evento e grava o log de logout no banco de dados, atualizando a sessão.
